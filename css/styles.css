@@ -1,6 +1,7 @@
 .header {
   background: url('../img/beatles-walking.jpg') no-repeat;
   background-size: cover;
+  opacity: .7;
   height: 300px;
   width: 100%;
   margin-top: -50px;
@@ -32,7 +33,7 @@
 }
 
 p {
-  color: red;
+  color: #FFB68D;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -40,6 +41,7 @@ p {
 body {
   margin: 0;
   text-align: center;
+  background-color: #69371B;
 }
 
 .title {
@@ -79,7 +81,7 @@ body {
   border-radius: 200px;
   font-family: 'Copse', serif;
   font-size: 20px;
-  background-color: gray;
+  background-color: #221005;
   width: 30%;
   float: right;
   margin-right: 70px;
@@ -93,7 +95,7 @@ body {
   border-radius: 200px;
   font-family: 'Copse', serif;
   font-size: 20px;
-  background-color: gray;
+  background-color: #221005;
   width: 30%;
   float: left;
   margin-left: 70px;
