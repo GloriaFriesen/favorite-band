@@ -1,0 +1,100 @@
+.header {
+  background: url('../img/beatles-walking.jpg') no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.navigation li {
+  display: inline;
+  list-style-type: none;
+  padding: 100px; /* spaced nav out */
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation a:hover {
+  color: brown;
+}
+
+.navigation {
+  padding-top: 50px; /* moved nav down */
+}
+
+.navigation ul {
+
+}
+
+p {
+  color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  padding-top: 20px;
+  font-size: 75px;
+  font-family: 'Della Respira', serif;
+}
+
+.images1 img {
+  float: left;
+  padding-right: 50px;
+  border-radius: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.images1 {
+
+}
+
+.images2 {
+  clear: both;
+}
+
+.images2 img {
+  float: right;
+  padding-left: 50px;
+  border-radius: 200px;
+  padding-right: 20px;
+}
+
+.text1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 200px;
+  font-family: 'Copse', serif;
+  font-size: 20px;
+  background-color: gray;
+  width: 30%;
+  float: right;
+  margin-right: 70px;
+}
+
+.text2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 200px;
+  font-family: 'Copse', serif;
+  font-size: 20px;
+  background-color: gray;
+  width: 30%;
+  float: left;
+  margin-left: 70px;
+}
