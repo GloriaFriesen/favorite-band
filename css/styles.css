@@ -47,6 +47,7 @@ body {
 .title {
   padding-top: 20px;
   font-size: 75px;
+  text-shadow: 2px 2px 2px #fff;
   font-family: 'Della Respira', serif;
 }
 
@@ -99,4 +100,42 @@ body {
   width: 30%;
   float: left;
   margin-left: 70px;
+}
+
+/* Media Query max-width: 1295 */
+@media screen and (max-width: 1295px) {
+    img {
+      height: 250px;
+      width: 400px;
+    }
+
+    .text1 {
+      width: 10%;
+      height: 100px;
+      font-size: 80%;
+      padding-top: 30px;
+    }
+
+    .text2 {
+      width: 10%;
+      height: 100px;
+      font-size: 80%;
+      padding-top: 30px;
+    }
+}
+
+/* Media Query 300-480 */
+@media screen and (max-width: 480px) and (min-width: 300px) {
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+}
+
+
+/* Media Query 700-1000 */
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: teal;
+  }
 }
